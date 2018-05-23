@@ -1,11 +1,12 @@
 html{
   height: 100%;
+  min-width: 1000px;
 }
 body{
   margin: 0;
   padding: 0;
   border: 4px solid #820083;
-  height: 100%;
+  height: auto;
   text-align: center;
   padding: 20px 0;
 }
@@ -31,7 +32,7 @@ header{
 section{
   border: 4px solid #008800;
   padding: 25px 15px 10px 15px;
-
+  margin-top: .5em;
   display: flex;
 }
 
@@ -49,4 +50,61 @@ section{
 .sidebar{
   width: 100%;
   border: 4px solid #050505;
+  padding: 10px;
+
 }
+
+.sidebar3{
+  width: auto;
+  background: transparent;
+  border: 4px solid #db8e00;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar1{
+  text-align: center;
+  width: 100%;
+  background: transparent;
+  border: 4px solid red; 
+  margin-right: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sidebar2{
+  text-align: center;
+  width: 100%;
+  background: transparent;
+  border: 4px solid #de6ea4; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebars{
+  margin-top: .5em;
+  height: 265px;
+
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+footer {
+  width: auto;
+  border: 4px solid brown;
+  background: transparent;
+  margin-top: .5em;
+  padding: 30px;
+}
+
+
+
